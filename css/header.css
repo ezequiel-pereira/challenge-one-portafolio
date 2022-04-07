@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 8px;
+}
+.mail-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+  text-decoration: none;
+}

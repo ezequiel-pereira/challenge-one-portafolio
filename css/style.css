@@ -1,0 +1,51 @@
+:root {
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #eaf2fd;
+  --primary-font-color: #464646;
+  --secondary-font-color: #2a7ae4;
+  --contrast-fontocolor: #ffffff;
+  --placeholder-color: #a2a2a2;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-font-color);
+  background-color: var(--primary-bg-color);
+}
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.regular-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 16px 0;
+}
+a:hover {
+  text-decoration: underline;
+}
+.about {
+  padding: 16px;
+}
+.secondary-bg {
+  background-color: var(--secondary-bg-color);
+}
+.title-center {
+  text-align: center;
+}
+.container {
+  width: 100;
+  max-width: 400px;
+  margin: auto
+}
+.footer {
+  padding: 32px;
+  background-color: var(--contrast-fontocolor);
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}

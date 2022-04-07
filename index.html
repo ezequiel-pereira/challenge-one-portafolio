@@ -10,13 +10,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/bio.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/training.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/contact.css" />
   <title>Ezequiel Pereira</title>
 </head>
 
 <body>
-  <header class="container">
+  <header class="header container">
     <div class="header-logo">
       <img src="img/auto_awesome_black_24dp1.png" alt="logo" />
       <h1 class="header-logo-title">Ezequiel Pereira</h1>
@@ -25,47 +31,49 @@
   </header>
   <main>
     <section class="bio">
-      <div class="container">
-        <img src="img/yo.jpg" alt="" class="profile-pic" />
-        <h2 class="section-title">
-          Hola, soy Ezequiel, me gusta el desarrolllo web.
-        </h2>
-        <p class="text">
-          Tengo formación en difernetes tecnologías de desarrollo web y
-          actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.
-        </p>
-        <ul class="bio-links">
-          <li>
-            <a class="bio-link" href="https://github.com/ezequiel-pereira" target="_blank">
-              GitHub
-              <img class="bio-link-icon" src="img/arrow_back_black_24dp1.png" alt="Ícono de flecha" />
-            </a>
-          </li>
-          <li>
-            <a class="bio-link" href="https://www.linkedin.com/in/ezequielpereira" target="_blank">
-              LinkedIn
-              <img class="bio-link-icon" src="img/arrow_back_black_24dp1.png" alt="Ícono de flecha" />
-            </a>
-          </li>
-          <li>
-            <a class="bio-link" href="#" target="_blank">
-              Curriculum
-              <img class="bio-link-icon" src="img/arrow_back_black_24dp1.png" alt="Ícono de flecha" />
-            </a>
-          </li>
-        </ul>
+      <div class="container bio-content">
+        <img class="bio-img" src="img/yo.jpg" alt="Foto de perfil" />
+        <div class="bio-text-content">
+          <h2 class="section-title">
+            Hola, soy Ezequiel, me gusta el desarrolllo web.
+          </h2>
+          <p class="regular-text">
+            Tengo formación en difernetes tecnologías de desarrollo web y
+            actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.
+          </p>
+          <ul class="bio-links">
+            <li>
+              <a class="bio-link" href="https://github.com/ezequiel-pereira" target="_blank">
+                GitHub
+                <img class="bio-link-icon" src="img/arrow_back_black_24dp1.png" alt="Ícono de flecha" />
+              </a>
+            </li>
+            <li>
+              <a class="bio-link" href="https://www.linkedin.com/in/ezequielpereira" target="_blank">
+                LinkedIn
+                <img class="bio-link-icon" src="img/arrow_back_black_24dp1.png" alt="Ícono de flecha" />
+              </a>
+            </li>
+            <li>
+              <a class="bio-link" href="#" target="_blank">
+                Curriculum
+                <img class="bio-link-icon" src="img/arrow_back_black_24dp1.png" alt="Ícono de flecha" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
     <section class="about secondary-bg">
       <div class="container">
         <h2 class="section-title">Sobre mí</h2>
-        <p class="text">
+        <p class="regular-text">
           Hice varios cursos de lenguajes y frameworks de desarrollo Web y sigo
           aprendo constantemente por mi cuenta. También me interesan las
           tecnologías de la nube y el Internet de las cosas. Hago trabajos
           freelance y tengo varios proyectos personales.
         </p>
-        <p class="text">
+        <p class="regular-text">
           Vivo en la Ciudad de Buenos Aires, Argentina. Me gusta la lectura, la
           música, el cine y el café.
         </p>
@@ -203,7 +211,7 @@
             posible.
           </p>
         </div>
-        <form action="">
+        <form class="form" action="">
           <input class="form-input" type="text" id="name" placeholder="Nombre" />
           <label class="form-label" for="name">Nombre</label>
           <input class="form-input" type="email" id="email" placeholder="E-mail" />
@@ -216,7 +224,7 @@
         </form>
       </div>
     </section>
-    <footer>
+    <footer class="footer">
       <p class="footer-text">Desarrollado por Ezequiel Pereira</p>
       <p class="footer-text">2022</p>
     </footer>

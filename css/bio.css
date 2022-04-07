@@ -1,0 +1,26 @@
+.bio {
+  padding: 16px;
+}
+.bio-img {
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+.bio-links {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.bio-link {
+  display: flex;
+  text-decoration: none;
+  color: var(--primary-font-color);
+  font-weight: 700;
+}
+.bio-link-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
