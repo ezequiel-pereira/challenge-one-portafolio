@@ -24,3 +24,15 @@
   height: 16px;
   object-fit: contain;
 }
+@media screen and (min-width: 768px) {
+  .bio, .about {
+    padding: 32px;
+  }
+  .bio-content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .bio-text-content {
+    padding-right: 64px;
+  }
+}

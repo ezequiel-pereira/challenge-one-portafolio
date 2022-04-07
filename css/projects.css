@@ -31,3 +31,12 @@
   color: var(--contrast-fontocolor);
   background-color: var(--secondary-font-color);
 }
+
+@media screen and (min-width: 768px) {
+  .project-card {
+    max-width: 768px;
+  }
+  .project-img-container {
+    height: 320px;
+  }
+}

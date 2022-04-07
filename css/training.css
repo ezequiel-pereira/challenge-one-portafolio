@@ -25,3 +25,15 @@
 .card-text {
   margin-top: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 360px;
+  }
+  .card-img-container {
+    max-width: 360px;
+  }
+  .card-title {
+    margin-top: 16px;
+  }
+}
