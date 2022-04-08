@@ -59,3 +59,20 @@ a:hover {
     justify-content: space-between;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 80%;
+    max-width: 1600px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-title {
+    font-size: 32px;
+  }
+  .regular-text {
+    max-width: 700px;
+  }
+}

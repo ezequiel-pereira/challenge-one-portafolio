@@ -40,3 +40,28 @@
     height: 320px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .projects {
+    padding: 32px 0;
+  }
+  .project-card {
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .project-img-container {
+    width: 60%;
+  }
+  .project-card-content {
+    width: 40%;
+    margin-left: 16px;
+  }
+  .button-link {
+    font-size: 16px;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+}

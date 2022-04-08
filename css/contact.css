@@ -83,3 +83,28 @@
   padding: 12px;
   margin-top: 32px;
 }
+.contact-img {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    padding: 130px 0 64px 0;
+  }
+  .contact-container {
+    width: 80%;
+    display: flex;
+  }
+  .contact-img {
+    display: block;
+    width: 40%;
+    background-image: url('../img/contact.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .contact-content {
+    width: 60%;
+    margin-left: 16px;
+  }
+}

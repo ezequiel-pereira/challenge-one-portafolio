@@ -27,17 +27,27 @@
       <img src="img/auto_awesome_black_24dp1.png" alt="logo" />
       <h1 class="header-logo-title">Ezequiel Pereira</h1>
     </div>
-    <a class="mail-link" href="mailto:eze@ezedev.ar">eze@ezedev.ar</a>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li><a class="nav-link" href="#about">Sobre Mí</a></li>
+        <li><a class="nav-link" href="#skills">Habilidades</a></li>
+        <li><a class="nav-link" href="#hobbies">Hobbies</a></li>
+        <li><a class="nav-link" href="#training">Formación</a></li>
+        <li><a class="nav-link" href="#projects">Proyectos</a></li>
+        <li><a class="nav-link" href="#contact">Contacto</a></li>
+        <li><a class="mail-link" href="mailto:eze@ezedev.ar">eze@ezedev.ar</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <section class="bio">
       <div class="container bio-content">
         <img class="bio-img" src="img/yo.jpg" alt="Foto de perfil" />
         <div class="bio-text-content">
-          <h2 class="section-title">
+          <h2 class="section-title bio-title">
             Hola, soy Ezequiel, me gusta el desarrolllo web.
           </h2>
-          <p class="regular-text">
+          <p class="regular-text bio-text">
             Tengo formación en difernetes tecnologías de desarrollo web y
             actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.
           </p>
@@ -64,7 +74,7 @@
         </div>
       </div>
     </section>
-    <section class="about secondary-bg">
+    <section class="about secondary-bg" id="about">
       <div class="container">
         <h2 class="section-title">Sobre mí</h2>
         <p class="regular-text">
@@ -79,7 +89,7 @@
         </p>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <h2 class="section-title title-center">Habilidades</h2>
       <div class="container flex-container">
         <div class="row">
@@ -114,7 +124,7 @@
         </div>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="hobbies">
       <h2 class="section-title title-center">Hobbies</h2>
       <div class="container flex-container">
         <div class="row">
@@ -149,9 +159,9 @@
         </div>
       </div>
     </section>
-    <section class="training secondary-bg">
+    <section class="training secondary-bg" id="training">
       <h2 class="section-title title-center">Formación</h2>
-      <div class="container flex-container">
+      <div class="container flex-container training-container">
         <div class="card">
           <div class="card-img-container">
             <img class="card-img" src="img/alura.svg" alt="Logo de  Alura" />
@@ -168,7 +178,7 @@
         </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2 class="section-title title-center project-section-title">
         Proyectos
       </h2>
@@ -177,51 +187,58 @@
           <div class="project-img-container">
             <img class="project-img" src="img/codigo-secreto.png" alt="Captura de pantalla del proyecto" />
           </div>
-          <h3 class="card-title">Encriptador de textos</h3>
-          <p class="card-text">Challenge Oracle</p>
-          <div class="project-links">
-            <a class="button-link repo" href="https://github.com/ezequiel-pereira/Challenge-Oracle-ONE-Semana1y2"
-              target="_blank" rel="noopener noreferrer">Repositorio</a>
-            <a class="button-link demo" href="https://ezequiel-pereira.github.io/Challenge-Oracle-ONE-Semana1y2/"
-              target="_blank" rel="noopener noreferrer">Ver demo</a>
+          <div class="project-card-content">
+            <h3 class="card-title">Encriptador de textos</h3>
+            <p class="card-text">Challenge Oracle</p>
+            <div class="project-links">
+              <a class="button-link repo" href="https://github.com/ezequiel-pereira/Challenge-Oracle-ONE-Semana1y2"
+                target="_blank" rel="noopener noreferrer">Repositorio</a>
+              <a class="button-link demo" href="https://ezequiel-pereira.github.io/Challenge-Oracle-ONE-Semana1y2/"
+                target="_blank" rel="noopener noreferrer">Ver demo</a>
+            </div>
           </div>
         </div>
-        <div class="card project-card">
+        <div class="card project-card reverse">
           <div class="project-img-container">
             <img class="project-img" src="img/ahorcado.png" alt="Captura de pantalla del proyecto" />
           </div>
-          <h3 class="card-title">Ahorcado</h3>
-          <p class="card-text">Challenge Oracle</p>
-          <div class="project-links">
-            <a class="button-link repo" href="https://github.com/ezequiel-pereira/Challenge-Oracle-ONE-Semana3y4"
-              target="_blank" rel="noopener noreferrer">Repositorio</a>
-            <a class="button-link demo" href="https://ezequiel-pereira.github.io/Challenge-Oracle-ONE-Semana3y4/"
-              target="_blank" rel="noopener noreferrer">Ver demo</a>
+          <div class="project-card-content">
+            <h3 class="card-title">Ahorcado</h3>
+            <p class="card-text">Challenge Oracle</p>
+            <div class="project-links">
+              <a class="button-link repo" href="https://github.com/ezequiel-pereira/Challenge-Oracle-ONE-Semana3y4"
+                target="_blank" rel="noopener noreferrer">Repositorio</a>
+              <a class="button-link demo" href="https://ezequiel-pereira.github.io/Challenge-Oracle-ONE-Semana3y4/"
+                target="_blank" rel="noopener noreferrer">Ver demo</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="contact secondary-bg">
-      <div class="container">
-        <h2 class="section-title">Contacto</h2>
-        <div class="contact-text">
-          <p>¿Quieres contactarme?</p>
-          <p>
-            Completa el siguiente formulario y me pondré en contacto lo antes
-            posible.
-          </p>
+    <section class="contact secondary-bg" id="contact">
+      <div class="container contact-container">
+        <div class="contact-img"></div>
+        <div class="contact-content">
+          <h2 class="section-title">Contacto</h2>
+          <div class="contact-text">
+            <p>¿Quieres contactarme?</p>
+            <p>
+              Completa el siguiente formulario y me pondré en contacto lo antes
+              posible.
+            </p>
+          </div>
+          <form class="form" action="">
+            <input class="form-input" type="text" id="name" placeholder="Nombre" />
+            <label class="form-label" for="name">Nombre</label>
+            <input class="form-input" type="email" id="email" placeholder="E-mail" />
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-input" type="text" id="subject" placeholder="Asunto" />
+            <label class="form-label" for="subject">Asunto</label>
+            <textarea class="form-input form-textarea" type="text" id="message" placeholder="Mensaje"></textarea>
+            <label class="form-label textarea-label" for="message">Mensaje</label>
+            <input class="form-submit" type="submit" id="submit" value="Enviar mensaje" />
+          </form>
         </div>
-        <form class="form" action="">
-          <input class="form-input" type="text" id="name" placeholder="Nombre" />
-          <label class="form-label" for="name">Nombre</label>
-          <input class="form-input" type="email" id="email" placeholder="E-mail" />
-          <label class="form-label" for="email">E-mail</label>
-          <input class="form-input" type="text" id="subject" placeholder="Asunto" />
-          <label class="form-label" for="subject">Asunto</label>
-          <textarea class="form-input form-textarea" type="text" id="message" placeholder="Mensaje"></textarea>
-          <label class="form-label textarea-label" for="message">Mensaje</label>
-          <input class="form-submit" type="submit" id="submit" value="Enviar mensaje" />
-        </form>
       </div>
     </section>
     <footer class="footer">

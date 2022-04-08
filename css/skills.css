@@ -44,3 +44,20 @@
     box-sizing: border-box;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .skills {
+    padding: 32px 0;
+  }
+  .flex-container {
+    justify-content: normal;
+  }
+  .row {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: calc(100%/3);
+  }
+  .col {
+    height: 174px;
+  }
+}

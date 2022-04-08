@@ -13,10 +13,34 @@
   font-weight: 700;
   padding-left: 8px;
 }
+.nav-link {
+  display: none;
+}
 .mail-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #464646;
   text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+
+  .menu, .menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--primary-font-color);
+    padding-right: 16px;
+    text-decoration: none;
+  }
+  .mail-link {
+    font-weight: 700;
+    font-size: 16px;
+  }
 }

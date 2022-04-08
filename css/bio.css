@@ -36,3 +36,28 @@
     padding-right: 64px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .bio,.about{
+    padding: 64px 0 64px 0;
+  }
+  .bio-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .bio-title {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .bio-text {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .bio-img {
+    width: 300px;
+    height: 300px;
+  }
+  .bio-text-content {
+
+  }
+}
