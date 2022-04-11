@@ -48,42 +48,30 @@ function getErrorMessage(inputName, input) {
 }
 
 const validityStates = [
-  "badInput",
-  "customError",
   "patternMismatch",
-  "rangeOverflow",
-  "rangeUnderflow",
-  "stepMismatch",
   "tooLong",
   "tooShort",
   "typeMismatch",
-  "valid",
   "valueMissing",
 ];
 
 const erroMessages = {
   name: {
-    patternMismatch: "El nombre debe tener solo caracteres alfabéticos",
-    tooShort: "El nombre debe tener al menos 3 caracteres",
-    typeMismatch: "Type mismatch",
+    patternMismatch: "El nombre debe tener almenos 2 caracteres alfabéticos",
+    tooShort: "El nombre debe tener al menos 2 caracteres",
     valueMissing: "El nombre no puede estar vacío",
   },
   email: {
-    patternMismatch: "El email debe ser válido",
-    tooShort: "El nombre debe tener al menos 3 caracteres",
     typeMismatch: "Ingrese un email válido",
     valueMissing: "El email no puede estar vacío",
   },
   subject: {
-    patternMismatch: "El asunto debe tener solo caracteres alfanuméricos",
-    tooShort: "El asunto debe tener al menos 3 caracteres",
-    typeMismatch: "Type mismatch",
+    patternMismatch: "El asunto no puede estar vacío",
+    tooShort: "El asunto debe tener al menos 2 caracteres",
     valueMissing: "El asunto no puede estar vacío",
   },
   message: {
-    patternMismatch: "Pattern mismatch",
-    tooShort: "El mensaje debe tener al menos 3 caracteres",
-    typeMismatch: "Type mismatch",
+    tooShort: "El mensaje debe tener al menos 2 caracteres",
     valueMissing: "El mensaje no puede estar vacío",
   },
 };

@@ -229,8 +229,8 @@
           </div>
           <form class="form" action="">
             <div class="input-container">
-              <input class="form-input" id="name" name="name" placeholder="Nombre" type="text" minlength="3"
-                maxlength="50" required />
+              <input class="form-input" id="name" name="name" placeholder="Nombre" type="text" minlength="2"
+                maxlength="50" pattern="(?!\s*$)[A-Za-zÑñ\s]{2,50}" required />
               <label class="form-label" for="name">Nombre</label>
               <span class="input-error-message">Error</span>
             </div>
@@ -240,14 +240,14 @@
               <span class="input-error-message">Error</span>
             </div>
             <div class="input-container">
-              <input class="form-input" type="text" name="subject" id="subject" placeholder="Asunto" maxlength="50"
-                required />
+              <input class="form-input" type="text" name="subject" id="subject" placeholder="Asunto" minlength="2"
+                maxlength="50" pattern=".*\S+.*" required />
               <label class="form-label" for="subject">Asunto</label>
               <span class="input-error-message">Error</span>
             </div>
             <div class="input-container">
               <textarea class="form-input form-textarea" type="text" id="message" name="message" placeholder="Mensaje"
-                maxlength="300" required></textarea>
+                minlength="2" maxlength="300" required></textarea>
               <label class="form-label textarea-label" for="message">Mensaje</label>
               <span class="input-error-message">Error</span>
             </div>
